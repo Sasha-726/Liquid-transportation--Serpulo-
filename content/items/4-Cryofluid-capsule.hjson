@@ -1,0 +1,5 @@
+type: "item"
+name: "Cryofluid-capsule"
+description: There is cryofluid inside.
+research: "4-Cryofluid-filler"
+color: "#87CEEB"

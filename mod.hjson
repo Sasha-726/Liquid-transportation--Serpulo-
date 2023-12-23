@@ -1,0 +1,11 @@
+{
+name: "liquid-transportation-serpulo"
+displayName:"Liquid-transportation-(Serpulo)"
+author: Toxopid
+description: "This mod allows you to transport liquids to different sectors on Serpulo."
+version: "1.5"
+minGameVersion: "145.1"
+dependencies: [ ]
+hideBrowser: false
+hidden: false
+}

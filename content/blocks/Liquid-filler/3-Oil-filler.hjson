@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Oil-filler"
+description: Seals the oil into a capsule.
+health: 200
+size: 2
+hasItems: true
+craftTime: 10
+idleSound: "smelter"
+updateEffect: "smoke"
+category: "liquid"
+itemCapacity: 10
+research: "2-Slag-filler"
+requirements:[
+{item: "lead",amount: 65}
+{item: "titanium",amount: 60}
+{item: "silicon",amount: 40}
+]
+consumes:{
+power: 1
+items:[
+lead/10
+]
+liquids:[
+oil/1
+] 
+}
+outputItem: {item: "3-Oil-capsule",amount: 1}
+

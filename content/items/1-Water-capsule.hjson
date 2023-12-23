@@ -1,0 +1,5 @@
+type: "item"
+name: "Water-capsule"
+description: There is water inside.
+research: "1-Water-filler"
+color: "#486ACD"

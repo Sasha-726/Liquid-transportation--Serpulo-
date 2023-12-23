@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: "Water-filler"
+description: Unpacks the oil capsule.
+health: 200
+size: 2
+hasItems: true
+craftTime: 10
+idleSound: "smelter"
+updateEffect: "smoke"
+category: "liquid"
+itemCapacity: 10
+liquidCapacity: 10
+research: "2-Slag-unpacker"
+requirements:[
+{item: "lead",amount: 65}
+{item: "titanium",amount: 60}
+{item: "silicon",amount: 40}
+]
+consumes:{
+power: 1
+items:[
+3-Oil-capsule/1
+]
+}
+outputItem: {item: "lead",amount: 10}
+outputLiquid: {liquid: "oil",amount:1}

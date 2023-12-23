@@ -1,0 +1,5 @@
+type: "item"
+name: "Slag-capsule"
+description: There is slag inside.
+research: "2-Slag-filler"
+color: "#FFCD66"

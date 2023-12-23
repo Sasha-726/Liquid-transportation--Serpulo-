@@ -1,0 +1,5 @@
+type: "item"
+name: "Oil-capsule"
+description: There is oil inside.
+research: "3-Oil-filler"
+color: "#313131"

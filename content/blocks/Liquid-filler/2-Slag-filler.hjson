@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "Slag-filler"
+description: Seals the slag into a capsule.
+health: 200
+size: 2
+hasItems: true
+craftTime: 10
+idleSound: "smelter"
+updateEffect: "smoke"
+category: "liquid"
+itemCapacity: 10
+research: "1-Water-filler"
+requirements:[
+{item: "lead",amount: 65}
+{item: "titanium",amount: 60}
+{item: "silicon",amount: 40}
+]
+consumes:{
+power: 1
+items:[
+lead/10
+]
+liquids:[
+slag/1
+] 
+}
+outputItem: {item: "2-Slag-capsule",amount: 1}
